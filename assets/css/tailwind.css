@@ -34,9 +34,7 @@ section      { @apply py-16 md:py-24; }
 /* override generic spacing only inside hero ↓ */
 .hero > *     { @apply space-y-0; }  /* base reset */
 
-.card {
-  @apply shadow-sm rounded-xl p-6 border hover:shadow-md transition
-}
+.card { @apply shadow-sm rounded-xl p-6 border border-gray-100 hover:shadow-md transition; }
 
 .logo:hover { filter: brightness(0) saturate(100%) invert(47%) sepia(95%) hue-rotate(-12deg) brightness(96%) contrast(90%); }
 

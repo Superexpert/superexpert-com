@@ -4,11 +4,21 @@ title: "Superexpert - Generative AI Consulting and Training"
 description: "Consulting company located in Austin, Texas that provides consulting and training on Generative AI."
 ---
 
-<header>
-    <img src="/assets/home/superexpert-logo.png" style="height:50px" />
+<header class="py-4">
+  <div class="container mx-auto flex items-center justify-between">
+    <a href="/" class="flex items-center gap-2">
+      <img src="/assets/home/superexpert-logo.png" alt="Superexpert logo"
+           class="h-10 w-auto" />
+    </a>
+    <a href="mailto:hello@superexpert.com"
+       class="hidden md:inline-block rounded-full bg-[#ff7f2a] px-5 py-2 text-xs font-semibold
+              text-white hover:opacity-90 transition">
+      Contact
+    </a>
+  </div>
 </header>
 
-
+<main>
 <section
   class="hero flex min-h-[60vh] flex-col items-center justify-center
            px-4 text-center space-y-8 bg-gradient-to-b from-white via-white to-gray-50">
@@ -17,7 +27,7 @@ description: "Consulting company located in Austin, Texas that provides consulti
     Generative AI, Integrated.
   </h1>
 
-  <p class="max-w-2xl text-xl md:text-2xl text-gray-600">
+  <p class="max-w-2xl text-xl md:text-3xl text-gray-600">
     Helping teams turn data and workflows into intelligent agents — fast.
   </p>
 
@@ -32,11 +42,6 @@ description: "Consulting company located in Austin, Texas that provides consulti
 
 
 
-
-
-
-
-
 <section class="proof bg-white py-12 md:py-16">
   <div class="mx-auto max-w-6xl text-center">
     <p class="mb-8 text-sm font-semibold tracking-wider text-gray-500 uppercase">
@@ -46,24 +51,24 @@ description: "Consulting company located in Austin, Texas that provides consulti
     <div
       class="grid gap-x-12 gap-y-12 justify-items-center
              grid-cols-2 sm:[grid-template-columns:repeat(3,minmax(180px,1fr))]">
-      <img src="/assets/logos/microsoft.svg" alt="Microsoft"
+      <img src="/assets/logos/microsoft.svg" alt="Microsoft" loading="lazy"
            class="logo h-10 md:h-16 lg:h-20 w-auto object-contain
                   grayscale opacity-80 hover:opacity-100 transition" />
-      <img src="/assets/logos/intel.svg"      alt="Intel"
+      <img src="/assets/logos/intel.svg"      alt="Intel" loading="lazy"
            class="logo h-10 md:h-16 lg:h-20 w-auto object-contain grayscale opacity-80 hover:opacity-100 transition" />
-      <img src="/assets/logos/boeing.svg"     alt="Boeing"
-           class="logo h-16 w-[200px] max-w-[220px]md:h-16 lg:h-20 object-contain grayscale opacity-80 hover:opacity-100 transition" />
-      <img src="/assets/logos/hp.svg"         alt="HP"
+      <img src="/assets/logos/boeing.svg"     alt="Boeing" loading="lazy"
+           class="logo h-16 w-[200px] max-w-[220px] md:h-16 lg:h-20 object-contain grayscale opacity-80 hover:opacity-100 transition" />
+      <img src="/assets/logos/hp.svg"         alt="HP" loading="lazy"
            class="logo h-10 md:h-16 lg:h-20 w-auto object-contain grayscale opacity-80 hover:opacity-100 transition" />
-      <img src="/assets/logos/nasa.svg"       alt="NASA"
+      <img src="/assets/logos/nasa.svg"       alt="NASA" loading="lazy"
            class="logo h-10 md:h-16 lg:h-20 w-auto object-contain grayscale opacity-80 hover:opacity-100 transition" />
-      <img src="/assets/logos/verizon.svg"    alt="Verizon"
+      <img src="/assets/logos/verizon.svg"    alt="Verizon" loading="lazy"
            class="logo h-10 md:h-16 lg:h-20 w-auto object-contain grayscale opacity-80 hover:opacity-100 transition" />
-      <img src="/assets/logos/petco.svg"      alt="Petco"
+      <img src="/assets/logos/petco.svg"      alt="Petco" loading="lazy"
            class="logo h-10 md:h-16 lg:h-20 w-auto object-contain grayscale opacity-80 hover:opacity-100 transition" />
-      <img src="/assets/logos/lockheed-martin.svg" alt="Lockheed Martin"
+      <img src="/assets/logos/lockheed-martin.svg" alt="Lockheed Martin" loading="lazy"
            class="logo h-10 md:h-16 lg:h-20 w-auto object-contain grayscale opacity-80 hover:opacity-100 transition" />
-      <img src="/assets/logos/mary-kay.svg"   alt="Mary Kay"
+      <img src="/assets/logos/mary-kay.svg"   alt="Mary Kay" loading="lazy"
            class="logo h-10 md:h-16 lg:h-20 w-auto object-contain grayscale opacity-80 hover:opacity-100 transition" />
     </div>
   </div>
@@ -81,7 +86,7 @@ description: "Consulting company located in Austin, Texas that provides consulti
     <div class="grid gap-8 md:grid-cols-3">
       <!-- Card 1 -->
       <div class="card space-y-3 text-left">
-        <h3 class="text-xl font-semibold">
+        <h3 class="text-lg md:text-xl font-bold text-gray-900">
           Enterprise&nbsp;AI Integration
         </h3>
         <p class="text-gray-600 leading-relaxed">
@@ -91,7 +96,7 @@ description: "Consulting company located in Austin, Texas that provides consulti
       </div>
       <!-- Card 2 -->
       <div class="card space-y-3 text-left">
-        <h3 class="text-xl font-semibold">
+        <h3 class="text-lg md:text-xl font-bold text-gray-900">
           AI&nbsp;Agent Engineering
         </h3>
         <p class="text-gray-600 leading-relaxed">
@@ -102,7 +107,7 @@ description: "Consulting company located in Austin, Texas that provides consulti
       </div>
       <!-- Card 3 -->
       <div class="card space-y-3 text-left">
-        <h3 class="text-xl font-semibold">
+        <h3 class="text-lg md:text-xl font-bold text-gray-900">
           Team Upskilling
         </h3>
         <p class="text-gray-600 leading-relaxed">
@@ -129,25 +134,25 @@ description: "Consulting company located in Austin, Texas that provides consulti
         open-source, enterprise-ready framework that powers everything we build.
       </p>
       <ul class="space-y-4 text-gray-700 leading-relaxed list-inside">
-        <li class="flex gap-2">
+        <li class="flex gap-2 pl-1">
           <svg class="h-5 w-5 shrink-0 text-[#ff7f2a]" fill="currentColor"
                viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 0 0-1.414 0L8 12.586 4.707 9.293a1 1 0 0 0-1.414 1.414l4 4a1
            1 0 0 0 1.414 0l8-8a1 1 0 0 0 0-1.414z"/></svg>
           <span><strong>Multi-task Agents&nbsp;</strong>— chain hundreds of tasks without writing code.</span>
         </li>
-        <li class="flex gap-2">
+        <li class="flex gap-2 pl-1">
           <svg class="h-5 w-5 shrink-0 text-[#ff7f2a]" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1
            1 0 0 0-1.414 0L8 12.586 4.707 9.293a1 1 0 0 0-1.414 1.414l4 4a1 1 0 0 0 1.414 0l8-8a1 1 0 0 0
            0-1.414z"/></svg>
           <span><strong>Built-in RAG&nbsp;</strong>for lightning-fast, document-heavy answers.</span>
         </li>
-        <li class="flex gap-2">
+        <li class="flex gap-2 pl-1">
           <svg class="h-5 w-5 shrink-0 text-[#ff7f2a]" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1
            1 0 0 0-1.414 0L8 12.586 4.707 9.293a1 1 0 0 0-1.414 1.414l4 4a1 1 0 0 0 1.414 0l8-8a1 1 0 0 0
            0-1.414z"/></svg>
           <span><strong>Plug-in architecture&nbsp;</strong>— register custom tools or data loaders in minutes.</span>
         </li>
-        <li class="flex gap-2">
+        <li class="flex gap-2 pl-1">
           <svg class="h-5 w-5 shrink-0 text-[#ff7f2a]" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1
            1 0 0 0-1.414 0L8 12.586 4.707 9.293a1 1 0 0 0-1.414 1.414l4 4a1 1 0 0 0 1.414 0l8-8a1 1 0 0 0
            0-1.414z"/></svg>
@@ -165,7 +170,7 @@ description: "Consulting company located in Austin, Texas that provides consulti
     <div class="hidden md:block">
       <img src="/assets/home/superexpert-ai.png"
            alt="Screenshot of Superexpert.AI dashboard"
-           class="w-full rounded-xl shadow-lg border">
+           class="w-full max-w-[480px] mx-auto md:mx-0 rounded-xl shadow-lg border">
     </div>
   </div>
 </section>
@@ -178,8 +183,8 @@ description: "Consulting company located in Austin, Texas that provides consulti
     <div class="hidden md:block md:col-span-2">
       <!-- swap src with a real headshot or remove this div -->
       <img src="/assets/home/stephen-walther.jpg"
-           alt="Stephen Walther"
-           class="w-full rounded-xl shadow-lg object-cover h-[320px]">
+          loading="lazy" alt="Portrait of Stephen Walther"
+          class="w-full rounded-xl shadow-lg object-cover h-[320px]">
     </div>
     <!-- Copy -->
     <div class="md:col-span-3 space-y-6">
@@ -230,7 +235,7 @@ description: "Consulting company located in Austin, Texas that provides consulti
 <!-- CTA STRIP -->
 <section class="ctaStrip bg-[#f5721b] py-12">
   <div class="mx-auto max-w-5xl flex flex-col items-center gap-6 px-4 text-center">
-    <h2 class="text-4xl md:text-5xl font-extrabold tracking-normal text-white drop-shadow-md">
+    <h2 class="text-[clamp(1.75rem,4vw,3rem)] text-4xl md:text-5xl font-extrabold tracking-wide text-white drop-shadow-md">
       Ready to build with&nbsp;Generative&nbsp;AI?
     </h2>
     <a href="mailto:hello@superexpert.com"
@@ -240,6 +245,7 @@ description: "Consulting company located in Austin, Texas that provides consulti
     </a>
   </div>
 </section>
+</main>
 
 <footer class="text-sm text-gray-500 py-4 text-center">
 &copy; 2025 Superexpert · Austin, TX
