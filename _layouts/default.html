@@ -12,81 +12,10 @@
     <link rel="stylesheet" href="{{ '/assets/css/tailwind_compiled.css' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/zenburn.css' | relative_url }}">
 </head>
-<body class="flex flex-col min-h-screen">
+<body>
 
 
-  <header class="w-full border-b border-gray-200 relative">
-    <div class="flex items-center justify-between px-4 sm:px-6 py-4 max-w-7xl mx-auto">
-  
-      <!-- Logo -->
-      <a href="/" class="flex items-center">
-        <img src="/assets/home/superexpert-ai-transparent.png" alt="Superexpert" width="200" height="38">
-      </a>
-  
-      <!-- Desktop Navigation -->
-      <nav class="hidden md:block">
-        <ul class="flex space-x-6 text-sm font-medium text-black2">
-          <li><a href="https://github.com/Superexpert/superexpert-ai" class="hover:text-black">Download</a></li>
-          <li><a href="/docs/quick-start" class="hover:text-black">Quick Start</a></li>
-          <li><a href="https://demo.superexpert.ai" class="hover:text-black">Demo</a></li>
-          <li><a href="/docs" class="hover:text-black">Docs</a></li>
-          <li><a href="/plugins" class="hover:text-black">Plugins</a></li>
-        </ul>
-      </nav>
-  
-      <!-- Desktop Button -->
-      <div class="hidden md:block">
-        <a href="https://github.com/Superexpert/superexpert-ai" class="border border-black2 text-black2 text-sm px-4 py-2 rounded-full hover:bg-black2 hover:text-white transition">
-          Download
-        </a>
-      </div>
-  
-      <!-- Mobile Menu Button -->
-      <div class="md:hidden">
-        <button id="menuButton" class="text-gray-700 hover:text-black2 focus:outline-none">
-          <!-- Hamburger Icon -->
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-              d="M4 6h16M4 12h16M4 18h16" />
-          </svg>
-        </button>
-      </div>
-  
-    </div>
-  
-    <!-- Mobile Dropdown Menu -->
-    <nav id="mobileMenu" class="hidden md:hidden bg-white shadow-md">
-      <ul class="flex flex-col items-start px-4 py-2 space-y-2 text-sm font-medium text-black2">
-        <li><a href="https://github.com/Superexpert/superexpert-ai" class="block py-1 hover:text-black">Download</a></li>
-        <li><a href="/docs/quick-start" class="block py-1 hover:text-black">Quick Start</a></li>
-        <li><a href="https://demo.superexpert.ai" class="block py-1 hover:text-black">Demo</a></li>
-        <li><a href="/docs" class="block py-1 hover:text-black">Docs</a></li>
-        <li><a href="/plugins" class="block py-1 hover:text-black">Plugins</a></li>
-      </ul>
-    </nav>
-  </header>
-  
-  <!-- Toggle JavaScript -->
-  <script>
-    const menuButton = document.getElementById('menuButton');
-    const mobileMenu = document.getElementById('mobileMenu');
-  
-    menuButton.addEventListener('click', () => {
-      mobileMenu.classList.toggle('hidden');
-    });
-  </script>  
-
-
-
-
-    <main class="flex-1">
         {{ content }}
-    </main>
-    <footer class="py-8 text-center bg-orange-50">
-        <div class="self-stretch justify-start text-zinc-600 text-sm font-normal leading-normal tracking-wide">
-          &copy; 2025 Superexpert.AI 
-        </div>
-    </footer>
 
 </body>
 </html>
