@@ -212,7 +212,7 @@ description: "Consulting company located in Austin, Texas that provides consulti
                viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 0 0-1.414 0L8
                12.586 4.707 9.293a1 1 0 0 0-1.414 1.414l4 4a1 1 0
                0 0 1.414 0l8-8a1 1 0 0 0 0-1.414z"/></svg>
-          Trusted advisor to enterprise developer teams—guiding successful AI adoption at Fortune 500 companies.
+          Experienced technology leader—specializing in guiding developer teams through successful Generative AI implementations.
         </li>
         <li class="flex gap-2">
           <svg class="h-5 w-5 shrink-0 text-[#ff7f2a]" fill="currentColor"
