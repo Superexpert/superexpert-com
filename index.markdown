@@ -24,11 +24,11 @@ description: "Consulting company located in Austin, Texas that provides consulti
            px-4 text-center space-y-8 bg-gradient-to-b from-white via-white to-gray-50">
 
   <h1 class="text-5xl md:text-6xl font-extrabold tracking-tight">
-    Generative AI, Integrated.
+    Your Generative AI Experts.
   </h1>
 
   <p class="max-w-2xl text-xl md:text-3xl text-gray-600">
-    Helping teams turn data and workflows into intelligent agents — fast.
+    Helping organizations turn data, workflows and classrooms into AI-powered experiences.
   </p>
 
   <a href="mailto:hello@superexpert.com"
@@ -45,7 +45,7 @@ description: "Consulting company located in Austin, Texas that provides consulti
 <section class="proof bg-white py-12 md:py-16">
   <div class="mx-auto max-w-6xl text-center">
     <p class="mb-8 text-sm font-semibold tracking-wider text-gray-500 uppercase">
-      Trusted by engineering and research teams worldwide
+      Providing technical training & consulting for 20+ years, trusted by leading engineering and research teams.
     </p>
     <!-- 3×3 grid on >= small screens, 2 cols on phones -->
     <div
